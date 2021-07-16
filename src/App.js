@@ -17,7 +17,7 @@ function App() {
         <nav class="navbar navbar-light bg-secondary">
           <a class="navbar-brand text-light">
             <img src="https://i.pinimg.com/originals/23/1c/4d/231c4dfc6667cb79907c06d8615daeaa.jpg"  width="30" height="30" class="d-inline-block align-top" alt="" />
-            Makeup
+            Makeup Products
           </a>
         </nav>
         {/* end of navbar */}
