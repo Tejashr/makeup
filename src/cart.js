@@ -8,7 +8,6 @@ function Cart() {
     useEffect(async () => {
         let details = await GetDetails();
         setItem(details.data)
-        console.log(details.data[0].image_link)
     }, [])
 
     return (
@@ -16,7 +15,6 @@ function Cart() {
             <div className="row">
                 {
                     item.map((user, index) => {
-                        console.log(user)
                         return (
                             <div className="col-md-6 col-sm-12 animate-box col-lg-4 mt-5">
                                 <div class="card" style={{ width: "18rem" }}>
