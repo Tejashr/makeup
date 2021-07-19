@@ -26,7 +26,7 @@ function Cart() {
                                     <div class="card-body bg-warning">
                                         <h5 class="card-title">{user.name}</h5>{/* displaying name of the product */}
                                         <p class="card-text">{user.brand}</p>{/* displaying brand of the product */}
-                                        <h6 className="card-text">Price: Rs{user.price}</h6>
+                                        <h6 className="card-text">Price: {user.price_sign}{user.price}</h6>
                                     </div>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">{user.description}</li>{/* displaying description of the product */}
@@ -37,8 +37,7 @@ function Cart() {
                                 </div>
                             </div>
                         )
-                    })):<SemipolarLoading  />
-
+                    })):<SemipolarLoading />
                 }
             </div>
 
